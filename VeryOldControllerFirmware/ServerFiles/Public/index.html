@@ -1,0 +1,31 @@
+<div id="content">
+    <div class="container-fluid changes">
+        <div class="row">
+            <div class="topnav">
+                <h1>Window Control</h1>
+            </div>
+        </div>
+        <hr/>
+        <div class="row">
+            <div class="col-md text-center">
+                <h3>Temperature:
+                    <strong>
+                        <span id="temp">N/A</span>
+                    </strong>
+                    <button id="fetchTempBtn" class="btn" onclick="fetchTemp()"> Fetch</button>
+                </h3>
+            </div>
+        </div>
+        <hr/>
+        <div class="row">
+            <div id="windowControls" class="col-md text-center button-container">
+            </div>
+        </div>
+        <a class="btn settings" href="/settings">
+            <i class="material-icons md-34">
+                settings
+            </i>
+        </a>
+    </div>
+    <script src="http://cdn.potatosaucevfx.com:9000/Public/index.js"></script>
+</div>

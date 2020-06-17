@@ -1,0 +1,39 @@
+<div id="content">
+    <div class="container-fluid changes">
+        <div class="row">
+            <div class="topnav">
+                <h1>Window Control Settings</h1>
+            </div>
+        </div>
+        <hr />
+        <div class="row">
+            <div class="col-md text-center">
+                <h3 id="heading">Controller Firmware Update</h3>
+                <form method='POST' action='#' enctype='multipart/form-data' id='upload_form'>
+                    <input type='file' name='update' id="firmwareFile">
+                    <input type='submit' value='Update'>
+                </form>
+                <div id='prg'>Progress: 0%</div>
+            </div>
+        </div>
+        <hr />
+        <div class="row">
+            <div class="col-md text-center">
+                <h3>WiFi Signal:
+                    <strong>
+                        <span id="wifi-signal">N/A</span>
+                    </strong>
+                    <button id="fetchWifiBtn" class="btn" onclick="fetchWifiStrength()"> Fetch</button>
+                </h3>
+            </div>
+        </div>
+        <hr />
+        <a class="btn back" href="/">
+            <i class="material-icons">
+                arrow_back
+            </i>
+        </a>
+    </div>
+
+    <script src="http://cdn.potatosaucevfx.com:9000/Public/Settings/index.js"></script>
+</div>

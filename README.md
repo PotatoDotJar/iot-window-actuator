@@ -15,3 +15,6 @@ Electrical schematics and circuit board designs.
 
 ### MechanicalDesigns/
 CAD renderings and designs.
+
+### VeryOldControllerFirmware/
+This is the super old firmware I started with on this project. It was very buggy and had a lot of issues. I only added it to compare how far I have come with my C/C++ skills.

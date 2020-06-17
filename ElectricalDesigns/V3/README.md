@@ -1,0 +1,2 @@
+# V3
+This design was a winner! With some minor changes, most notably the led pin change, this board was the final version and is currently being used in production. One issue I had to fix was removing the reset pin, TX pin, and RX pins from the remote. They caused unwanted resets and issues with the LED data writing. 

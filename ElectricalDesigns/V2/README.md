@@ -1,0 +1,2 @@
+# V2
+This board was also problematic as I incorrectly routed some of the traces for the remote. The board also used a 5V voltage regulator that could not supply enough current to the ESP32 causing the issues mentioned in the V1 README. Those issues related to WiFi and network connectivity lead to hours of research and lots of hair-loss... Asside from the networking issues, this board used the boot GPIO as the LED data output causing some issues with the controller going into firmware upload mode when reset while the led was being changed.

@@ -1,0 +1,2 @@
+# Controller Firmware
+The firmware changed A LOT over the course of this project and I definitely improved my C/C++ skills. There are way too many changes for me to remember so this is just a snapshot of the current production firmware I recently re-wrote using what I learned about designing programs using C++. Most of everything is static since there is only ever once instance of every class. This also makes it easier for the classes to depend on each other. I am sure there is a better way of organizing this, I just wanted to get this project done in a timely manner.
