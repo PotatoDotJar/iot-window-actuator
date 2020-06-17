@@ -10,8 +10,8 @@ These devices are used in a wedding barn venue to remotely open and close window
 ### ControllerFirmwareV4/
 ESP32 Microcontroller firmware developed in C++ using PlatformIO in VS Code.
 
-### MechanicalDesigns/
-CAD renderings and designs.
-
 ### ElectricalDesigns/
 Electrical schematics and circuit board designs.
+
+### MechanicalDesigns/
+CAD renderings and designs.
